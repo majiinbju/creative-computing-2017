@@ -1,0 +1,29 @@
+body {
+	background: #ffa;
+	color: #000;
+	font-family: arial;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 5px;
+	margin: 0;
+	padding: 50px;
+}
+
+.c1 {	width: 500px;
+ padding: 350px;
+
+ }
+
+.nav {
+	color: #000;
+}
+
+.rose {
+	padding: 350px;
+}
+
+ img { width: 100%; }
+
+ div {
+ 	margin-bottom: 10px;
+ }

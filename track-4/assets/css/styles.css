@@ -1,0 +1,32 @@
+body {
+	background: #000;
+	color: #fff;
+	font-family: arial;
+	margin: 0;
+	padding: 50px;
+	font-size: 0;
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+a { color: #fff; }
+
+
+.square {
+	margin: 0 0 40px 0;
+	padding: 50px;
+	width: 350px;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 5px;
+}
+
+ img { 
+ 	width: 100%; 
+	margin-bottom: 20px
+}

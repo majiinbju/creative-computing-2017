@@ -1,0 +1,49 @@
+* { 
+vertical-align: top;
+box-sizing: border-box; }
+
+body {
+	font-family: "bree-serif";
+	font-size: 0px;
+	line-height: 28px;
+	letter-spacing: 5px;
+	margin: 0;
+	padding: 50px;
+	background: #E05E5E;
+}
+
+
+.door-wrapper {
+  font-size: 0;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.door {
+	color:aliceblue;
+	padding: 10px;
+	position:relative;
+	
+	background:url(../img/sprite.png) 150px 0 no-repeat;
+	width: 300px;
+	height: 220px;
+	margin: 0 60px 60px 0;
+	display: inline-block;
+}
+
+.door.last { margin-right: 0; }
+
+.door:hover { background-position: 0 0; 
+font-size: 15px;}
+
+a {
+	color:aliceblue;
+	text-decoration: none;
+	position:relative;
+	top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+	
+}
+
+img { widht:100%;}

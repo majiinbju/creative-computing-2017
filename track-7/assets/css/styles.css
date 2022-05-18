@@ -1,0 +1,78 @@
+* { vertical-align: top; }
+
+body {
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	background-color: #333333;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 0px;
+	letter-spacing: 5px;
+	margin:0px;
+	padding: 10px;
+}
+
+a {
+	color:#E4E4E4;
+	text-decoration:none;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.bg{font-size: 200px;
+color:#E13F42;
+letter-spacing: 70px;
+text-decoration: overline;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)
+}
+
+a{
+	color:#E13F42;
+	text-decoration:none;
+}
+
+a:hover{
+	font-size:200px;
+	color:#F1EBC3;
+	transition: color 1s ease-in-out;
+}
+	
+.c {
+	color:#E4E4E4;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.box1{
+	width: 400px;
+	color: #E13F42;
+	font-size: 25px;
+	margin: -600px 0px 0px 600px;
+}
+
+.box2{
+	width: 400px;
+	color: #E13F42;
+	font-size: 25px;
+	margin: -400px 0px 0px 0px;
+}
+
+.box3{
+	width: 400px;
+	color: #E13F42;
+	font-size: 25px;
+	margin: -800px 0px 0px 600px;
+}
+
+
+.no-left-gutter { margin-left: 0; }
+.no-right-gutter { margin-right: 0; }
+.whitespace-fix { font-size: 0; }
+
+img { width: 100%; }
